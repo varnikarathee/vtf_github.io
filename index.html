@@ -19,95 +19,76 @@
   </head>
   <body>
     <header>
-      <nav class="navbar">
-        <div class="navbar__brand">
-          <img
-            src="logo-small.png"
-            alt="logo"
-            class="brand__logo"
-          />
+      <!-- LANDING PAGE -->
+      <div class="holder">
+        <header id="header">
+            <div class="container1">
+                <nav class="navbar">
+
+                  <div class="brand__and__toggler">
+                    <div class="navbar__brand">
+                    <img
+                    src="logo-small.png"
+                    alt="logo"
+                    class="brand__logo"/>
+                    </div>
+                    <button class="navbar-toggler" type="button">
+                    <span>
+                        <i class="fas fa-bars"></i>
+                    </span>
+                   </button>
+                   </div>
+
+            <div class="navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">INTERNSHIPS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">EVENTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">CONTACT US</a>
+                    </li>
+                </ul>
+                <div class="header-btns">
+                    <a href="#" class="btn btn-signin">Sign in</a>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="banner">
+            <div class="banner-left">
+                <h1 class="banner-title">
+                    Go Where The
+                    Action is  
+                </h1>
+                <p class="banner-text">
+                    Be a part of community to learn, test and share.
+                    <br>
+                    No membership cost to be a part of VTF.
+                </p>
+                <div class="widget_container">
+                    <iframe src="https://discord.com/widget?id=905480884759707688&theme=dark" width="350"
+                    height="250"
+                    class="widget"></iframe>
+                    
+                </div>
+
+            </div>
+           
+            <div class="banner-right">
+                <img src="undraw_programming_re_kg9v.svg" alt="banner-img">
+            </div>
         </div>
+    </div>
+        </header>
+    </div>
 
-        
-
-        <div class="navbar__nav__items">
-          <div class="nav__item">
-            <div class="dropdown1__container">
-              <select
-                name="AboutUs"
-                id="AboutUselect"
-                class="aboutus__drop__down"
-              >
-                <option value="about us" selected>About Us</option>
-              </select>
-            </div>
-            </div>
-            <div class="nav__item">
-            <div class="dropdown2__container">
-              <select
-               name="Internship"
-               id="Internshipselect"
-               class="Internship__drop__down">
-               <option value="Internship" selected>Internship</option>
-              </select>
-            </div>
-            </div>
-            <div class="nav__item">
-            <div class="dropdown3__container">
-              <select
-               name="Events"
-               id="Eventsselect"
-               class="Events__drop__down">
-               <option value="Events" selected>Events</option>
-              </select>
-            </div>
-          </div>
-          <div class="nav__item">
-            <div class="dropdown4__container">
-              <select
-               name="Contact"
-               id="Contactselect"
-               class="Contact__drop__down">
-               <option value="Contact" selected>Contact</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="nav__item">
-            <button class="signin__button">Sign in</button>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <main>
-      <section class="hero">
-        <div class="hero__bg__image__container">
-          <img
-            src="mario-gogh-VBLHICVh-lI-unsplash.jpg"
-            alt="BG hero image"
-            class="hero__bg__image"
-          />
-        </div>
-        <div class="hero__bg__overlay"></div>
-
-        <div class="hero__card">
-          <h1 class="hero__title">
-            Go Where The<br />
-            Action is
-          </h1>
-          <p class="hero__subtitle">Be a part of community to learn, test and share.</p>
-          <p class="hero__description">
-            No membership cost to be a part of VTF.
-          </p>
-        
-          <div class="widget_container">
-            <iframe src="https://discord.com/widget?id=905480884759707688&theme=dark"
-            class="widget"></iframe>
-            
-          </div>
-        </div>
-      </section>
 
       <!-- POPUP CARDS -->
 
@@ -192,6 +173,7 @@
            <div class="col">
                <img src="t1.jfif" alt="">
                <p>
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quisquam praesentium quo commodi. Rerum quisquam dolores veritatis hic consequuntur ipsa mollitia, minima corrupti iusto dolorum placeat praesentium. Sunt, incidunt numquam?</p>
 
                <h4>Alice Hughes</h4>
@@ -200,6 +182,7 @@
            <div class="col">
                <img src="t2.jfif" alt="">
                <p>
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quisquam praesentium quo commodi. Rerum quisquam dolores veritatis hic consequuntur ipsa mollitia, minima corrupti iusto dolorum placeat praesentium. Sunt, incidunt numquam?</p>
 
                <h4>Christian Evans</h4>
@@ -209,6 +192,7 @@
            <div class="col">
                <img src="t3.jfif" alt="">
                <p>
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi quisquam praesentium quo commodi. Rerum quisquam dolores veritatis hic consequuntur ipsa mollitia, minima corrupti iusto dolorum placeat praesentium. Sunt, incidunt numquam?</p>
 
                <h4>Peter Aiyer</h4>
@@ -216,35 +200,21 @@
            </div>
        </div>  
       </section>
-
+      
 
       <!-- EVENTS -->
-    <div class="tag">EVENTS</div>
-      <div class ='container'>
-        <div class="product">
-            <div class ="product_card" id="product_card">
-                <h2 class="name">PUBLIC CLOUD WORKLOADS AND SERVICES</h2>
-                <span class="price">How to Secure Your Public Cloud Workloads and Services</span>
-                <a class ="popup_btn">DETAILS</a>
-                <img src="101221.png" class="product_img"
-                id="product_img"
-                alt ="">
-            </div>
-            <div class="popup_view">
-                <div class="popup_card">
-                    <a class="close_btn"><i class="fas fa-times"></i></a>
-                    <div class="product_img">
-                        <img src="101221.png" alt="">                         </div>
-                      <div class="info">
-                          <h2>PUBLIC CLOUD WORKLOADS AND SERVICES<br><span>How to Secure Your Public Cloud Workloads and Services</span></h2>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ipsa natus. Eos quaerat eius veniam quos distinctio dolor eveniet molestias.</p>
-                          
-                          <a href ="#" class="add_cart_btn">EXPLORE</a>
-                      </div>  
-                </div>
-            </div>
-        </div>   
-
+      <div class="container2">
+        <div class="img-container">
+          <img src="101221.png">
+        </div>
+        <div class="content-container">
+          <h2>CYBERSECURITY</h2>
+          <h1>How to Secure Your Public Cloud Workloads and Services</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu odio ante. Curabitur efficitur ante a ex sagittis, at lobortis quam egestas. Phasellus tempor lorem risus, ut malesuada turpis placerat eget. Nunc eleifend diam blandit sapien congue, id dictum odio ultricies.</p>
+          <a href="#" class="btn">Read More</a>
+          <p><br /></p>
+        </div>
+      </div>
 
 
       <!-- FOOTER -->
